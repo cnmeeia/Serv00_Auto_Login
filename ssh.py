@@ -17,7 +17,7 @@ def ssh_connect(host, username, password, bark):
         print(f"SSH连接成功。")
 
         if bark:
-            url = f"https://api.day.app/{bark}/Serv00自动登录/账号 {username} SSH连接成功。"
+            url = f"https://bark.app-io.workers.dev/{bark}/Serv00自动登录/账号 {username} SSH连接成功。"
             response = requests.get(url)
     except Exception as e:
         ssh_status = f"SSH连接失败，错误信息: {e}"
