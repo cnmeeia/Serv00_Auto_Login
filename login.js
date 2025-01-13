@@ -61,7 +61,7 @@ async function delayTime(ms) {
         if(bark) await fetch(`https://api.day.app/${bark}/Serv00自动登录/账号 ${username} 于北京时间 ${nowBeijing}（UTC时间 ${nowUtc}）登录成功！`);
         console.log(`账号 ${username} 于北京时间 ${nowBeijing}（UTC时间 ${nowUtc}）登录成功！`);
       } else {
-        if(bark) await fetch(`https://api.day.app/${bark}/Serv00自动登录/账号 ${username} 登录失败，请检查账号和密码是否正确。`);
+        if(bark) await fetch(`hhttps://bark.app-io.workers.dev/${bark}/Serv00自动登录/账号 ${username} 登录失败，请检查账号和密码是否正确。`);
         console.error(`账号 ${username} 登录失败，请检查账号和密码是否正确。`);
       }
     } catch (error) {
